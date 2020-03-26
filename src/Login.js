@@ -35,13 +35,13 @@ export default function Login() {
       >
         <input
           type="text"
-          placeholder="username"
+          placeholder="Username"
           onChange={event => setUsername(event.target.value)}
           value={username}
         />
         <input
           type="password"
-          placeholder="password"
+          placeholder="Password"
           onChange={event => setPassword(event.target.value)}
           value={password}
         />
